@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AngkaNusa — Indonesia in Numbers</title>
+<meta name="description" content="AngkaNusa: Indonesia's national statistics in one place — population, economy, regions, labor and trade, every figure with its source and year.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="#/overview" aria-label="AngkaNusa home">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span class="brand-text"><strong>AngkaNusa</strong><small>INDONESIA IN NUMBERS</small></span>
+    </a>
+    <div class="head-tools">
+      <label class="search-box">
+        <span class="sr-only">Search indicators</span>
+        <input id="site-search" type="search" placeholder="Search indicators — try “inflation”" autocomplete="off">
+      </label>
+      <span class="head-badge">38 provinces · 283.5M people</span>
+    </div>
+  </div>
+  <nav class="site-nav" aria-label="Sections">
+    <a href="#/overview" data-route="overview">Overview</a>
+    <a href="#/economy" data-route="economy">Economy</a>
+    <a href="#/population" data-route="population">Population</a>
+    <a href="#/regions" data-route="regions">Regions</a>
+    <a href="#/labor" data-route="labor">Labor</a>
+    <a href="#/trade" data-route="trade">Trade</a>
+  </nav>
+</header>
+
+<main id="view" class="view" aria-live="polite"></main>
+
+<footer class="site-foot">
+  <div class="foot-inner">
+    <p><strong>AngkaNusa</strong> is an independent reader's digest of Indonesia's official statistics.
+    Every figure on this site names its source and year — BPS (Statistics Indonesia), Bank Indonesia,
+    the World Bank, the UN and APJII. Figures are reproduced for reference; the publishing agency's
+    release is the authoritative version.</p>
+    <p class="foot-links">
+      <a href="#/overview">Overview</a> · <a href="#/economy">Economy</a> · <a href="#/population">Population</a> ·
+      <a href="#/regions">Regions</a> · <a href="#/labor">Labor</a> · <a href="#/trade">Trade</a>
+    </p>
+    <p class="foot-note">Runs entirely from its own files — no network requests, no tracking.</p>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/views.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
